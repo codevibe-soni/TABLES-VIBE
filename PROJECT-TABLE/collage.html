@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+</head>
+
+<style>
+    div{
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    height:720px;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    }
+    table{
+        width: 100%;
+        background-color: white;
+    }
+       tr:hover{
+        background: linear-gradient(45deg,#ffc0cb,#ffb6c1);
+        color: white;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px rgba(255,182,193,0.7);
+        transform: scale(1.02);
+    }
+</style>
+<body>
+    <div>
+     <h1>School Managemenet</h1>
+     <table  border="2" cellspecing = "5" cellpadding = "5">
+        <thead>
+            <h2>Student Details</h2>
+            <tr>
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Section</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Ravi Kumar</td>
+                <td rowspan="2">Male</td>
+                <td rowspan="2">10</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Aman Shingh</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Pooja Sharma</td>
+                <td>Female</td>
+                <td>9</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+
+        <table border="2" cellspecing = "5" cellpadding = "5">
+<thead>
+    <h2>Fee Repoart</h2>
+    <tr>
+        <th>Student Name</th>
+        <th>Class</th>
+        <th>Fee Paid</th>
+        <th>Fee Pending</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>Ravi Kumar</td>
+        <td rowspan="2">10</td>
+        <td>₹5000</td>
+        <td>₹2000</td>
+    </tr>
+    <tr>
+        <td>Aman Shingh</td>
+        <td>₹7000</td>
+        <td>₹0</td>
+    </tr>
+    <tr>
+        <td>Pooja Sharma</td>
+        <td>9</td>
+        <td>₹3000</td>
+        <td>₹3000</td>
+    </tr>
+</tbody>
+
+<tfoot>
+    <tr>
+    <td colspan="2">Total</td>
+    
+    <td>₹15000</td>
+    <td>₹5000</td>
+</tr>
+</tfoot>
+
+<table border="2" cellspecing = "5" cellpadding = "5">
+    <thead>
+        <h2>Event Schedule</h2>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Time</th>
+            <th rowspan="2">Event</th>
+        </tr>
+
+        <tr>
+            <th>Start</th>
+            <th>End</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+               <td>Monday</td>
+                <td>9:00 A.M.</td>
+                <td>11:00 A.M.</td>
+                <td>Science Fair</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00 A.M.</td>
+                <td>1:00 P.M.</td>
+                <td>Sports Meet</td>
+            </tr>
+            <tr>
+                <td>Wedneday</td>
+                <td>8:00 A.M.</td>
+                <td>12:00 P.M.</td>
+                <td>Art Exhibition</td>
+            </tr>
+    </tbody>
+
+</table>
+        </table>
+        </div>
+     </table>
+</body>
+</html>
